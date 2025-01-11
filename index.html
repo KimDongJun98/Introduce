@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김동준 (DongJun)</title>
+  <link rel="icon" href="/wifi.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="section">
+    <div class="about-content">
+      <img src="profile.jpg" alt="프로필 사진" class="profile-img">
+      <div class="about-text">
+        <h1>안녕하세요. 프론트엔드 개발자 김동준입니다.</h1>
+        <p>저는 가만히 있는 것을 싫어하는 사람입니다.</p>
+        <p>잘 하지는 못 해도 매사에 열심히 참여하겠습니다.</p>
+
+        <hr>
+        <p>My Skill</p>
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-react"></i>
+        <i class="fa-brands fa-node"></i>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="section">
+    <h2>Project</h2>
+    <div class="projects">
+      <div class="project-card">
+        <a href="https://kimdongjun98.github.io/highseason/" target="_blank"><img src="highseadson.gif" alt=""></a>
+        <div class="project-info">
+          <h3>high seAson</h3>
+          <p>하이시즌 소속 가수와 작업물 소개하는 프로젝트</p>
+          <ul>
+            <li>기술 - React, Swiper</li>
+            <li>성과 - 컴포넌트 기반 구조와 Hook의 사용법을 이해할 수 있었습니다.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project-card">
+        <a href="https://xgg5l9.csb.app/pages/stock.html" target="_blank"><img src="stock.gif" alt=""></a>
+        <div class="project-info">
+          <h3>Stock</h3>
+          <p>Chart.js를 활용한 주식 차트와 정보 표현 프로젝트</p>
+          <ul>
+            <li>담당 역할 - fetch를 통한 외부 API 호출, Chart.js로 주식 차트 표현, 마우스 오버 시 상세 정보 표현</li>
+            <li>기술 -  HTML, CSS, JavaScript</li>
+            <li>성과 - fetch를 통한 API 호출과 요청-응답 구조에 대한 학습이 가능하였습니다.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project-card">
+        <a href="https://docs.google.com/presentation/d/11Fnv9IoTY5D7aFdUtKdYQFkex_SXmS89T0W00KP_W-g/edit#slide=id.g30773d47a0f_1_81" target="_blank"><img src="reservation.png" alt="" style="width: 400px; height: 500px;"></a>
+        <div class="project-info">
+          <h3>Reservation</h3>
+          <p>제주도의 숙소 정보를 보여주며 예약을 통한 예약자의 정보를 저장하는 프로젝트</p>
+          <ul>
+            <li>담당 역할 - fetch를 통한 외부 API 호출, 반응형 웹사이트</li>
+            <li>기술 -  MongoDB, TypeScript, Node.js</li>
+            <li>성과 - 데이터 처리의 전반적인 과정을 학습, 사용자 중심의 UI 배치의 중요성을 알게 되었습니다.</li>
+          </ul>
+          <p>(발표 자료로 대체합니다)</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <a href="https://docs.google.com/presentation/d/11zMLF6BXE44Yeow5V59ktQCXG7pUsrTRl7fQvz60gpA/edit#slide=id.g3191321cf24_4_0" target="_blank"><img src="kurly.png" alt="" style="width: 300px; height: 500px;"></a>
+        <div class="project-info">
+          <h3>Kurlism</h3>
+          <p>커머스를 모방한 Node 기반 회원 데이터 관리 프로젝트</p>
+          <ul>
+            <li>담당 역할 - 해쉬화를 통한 데이터 저장, jwt token을 통한 역할 분리 등 마이 페이지 구현</li>
+            <li>기술 -  MongoDB, Typescript, Next.js, Node.js</li>
+            <li>성과 - 여러 메서드로 MongoDB 간의 연결을 통해 데이터의 흐름을 이해하였습니다.</li>
+          </ul>
+          <p>(발표 자료로 대체합니다)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fas fa-envelope icon"></i>
+        <span>ehdwns778@naver.com</span>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone-alt icon"></i>
+        <span>010-9066-6842</span>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-github icon"></i>
+        <a href="https://github.com/KimDongJun98/highseason" target="_blank">github</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>@ 2024 DongJun</p>
+  </footer>
+</body>
+</html>
